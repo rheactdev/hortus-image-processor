@@ -1,4 +1,4 @@
-FROM node:20-slim
+FROM node:22-slim
 
 # Install ImageMagick
 RUN apt-get update && apt-get install -y imagemagick && rm -rf /var/lib/apt/lists/*
